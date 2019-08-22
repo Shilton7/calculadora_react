@@ -1,0 +1,12 @@
+.tela {
+    grid-column: span 4;
+    background-color: #0004;
+    display: flex;
+    overflow: hidden;
+
+    /* lado direito */
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.9em;
+    padding: 17px;
+}

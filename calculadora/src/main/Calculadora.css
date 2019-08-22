@@ -3,5 +3,10 @@
     width: 235px;
     border-radius: 5px;
     overflow: hidden;
-    background-color: red;
+    
+    /* 4 colunas ocupando 25% da tela */
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+
 }
